@@ -294,7 +294,11 @@ def build_html(nodes: list[dict[str, object]], edges: list[dict[str, object]]) -
             n.x = centerX;
             n.y = centerY;
             n.vx = 0; n.vy = 0;
-            n.r = 6 + Math.sqrt(n.degree || 0) * 3; // size by degree
+            // Base radius depending on kind: insights large, writeup small, relations medium
+            const base = n.kind === 'insights' ? 14 : (n.kind === 'writeup' ? 6 : 10);
+            // Scale with degree (number of edges) but cap to avoid huge nodes
+            const scale = Math.sqrt(n.degree || 0) * 3;
+            n.r = Math.max(4, Math.min(48, base + scale));
         });
 
         const edgeEls = edges.map(e => {
