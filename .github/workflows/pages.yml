@@ -1,4 +1,4 @@
-name: Example call to generate knowledge graph
+name: generate knowledge graph
 
 on:
   push:
