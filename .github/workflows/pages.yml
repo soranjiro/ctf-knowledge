@@ -11,4 +11,4 @@ permissions:
 
 jobs:
   graph:
-    uses: owner/.knowledge/.github/workflows/generate-graph.yml@main
+    uses: soranjiro/.knowledge/.github/workflows/generate-graph.yml@main
