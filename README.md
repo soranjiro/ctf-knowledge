@@ -3,6 +3,8 @@
 このディレクトリは、CTF writeup から再利用可能な知見を育てるための知識ベースです。
 個別 writeup をそのまま増やすだけでなく、抽象的な知見と具体的な参照関係を分けて蓄積します。
 
+https://soranjiro.github.io/ctf-knowledge/
+
 ## 役割
 
 - `writeup/` は個別の事例です。解いた問題、手順、観察、失敗、flag 取得までを残します。
