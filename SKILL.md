@@ -26,7 +26,7 @@ LLM が拾う前提なので、短く揃えた表現を使う。
 
 ## 使い方
 
-- 問題を解いたら `writeup/{sponsor}/{year}-w{week}/mmdd_{title}.md` に追加する。
+- 問題を解いたら `writeup/{source}/{year}-w{week}/mmdd_{title}.md` に追加する。
 - その writeup から再利用できる見方を抽出し、カテゴリ別の relation に追記する。
 - relation からカテゴリ別 insight を参照し、足りない一般知識がある場合だけ insight を追加または更新する。
 - 具体的な観察、offset、URL、制約、例外、失敗などは writeup に置き、relation には概要と比較観点だけを置く。

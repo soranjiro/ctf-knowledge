@@ -1,0 +1,14 @@
+name: Example call to generate knowledge graph
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  graph:
+    uses: owner/.knowledge/.github/workflows/generate-graph.yml@main

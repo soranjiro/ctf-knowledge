@@ -42,7 +42,7 @@ https://soranjiro.github.io/ctf-knowledge/
 
 writeup は次の形式で置きます。
 
-`writeup/{sponsor}/{year}-w{week}/mmdd_{title}.md`
+`writeup/{source}/{year}-w{week}/mmdd_{title}.md`
 
 例: [writeup/alphahack/2025-w49/1207_size-limit.md](writeup/alphahack/2025-w49/1207_size-limit.md)
 
